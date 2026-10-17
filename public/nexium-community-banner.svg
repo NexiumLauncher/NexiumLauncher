@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="700" viewBox="0 0 1400 700" fill="none">
+  <defs>
+    <linearGradient id="sky" x1="120" y1="40" x2="1200" y2="720" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#182D32"/>
+      <stop offset=".48" stop-color="#35543C"/>
+      <stop offset="1" stop-color="#101918"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="870" y1="70" x2="1230" y2="570" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#D2F79A" stop-opacity=".85"/>
+      <stop offset="1" stop-color="#83B956" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="word" x1="280" y1="315" x2="825" y2="453" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F6FFE7"/>
+      <stop offset=".55" stop-color="#C5F38D"/>
+      <stop offset="1" stop-color="#8DC663"/>
+    </linearGradient>
+    <pattern id="pixels" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M1 1h22v22H1zM25 25h22v22H25z" fill="#E5FFC8" fill-opacity=".035"/>
+    </pattern>
+    <filter id="blur" x="580" y="-80" width="840" height="840" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feGaussianBlur stdDeviation="70"/>
+    </filter>
+  </defs>
+  <path fill="url(#sky)" d="M0 0h1400v700H0z"/>
+  <path fill="url(#pixels)" d="M0 0h1400v700H0z"/>
+  <circle cx="1000" cy="240" r="280" fill="url(#glow)" filter="url(#blur)"/>
+  <path d="M0 518 164 418l127 52 184-151 156 101 125-63 181 133 115-67 160 102 188-117v292H0V518Z" fill="#101A17" fill-opacity=".8"/>
+  <path d="m0 581 186-114 132 58 163-109 142 75 132-88 177 123 120-55 135 63 213-110v276H0V581Z" fill="#0C1311" fill-opacity=".72"/>
+  <g opacity=".78" fill="#C5F38D">
+    <path d="M1082 148h18v18h-18zM1118 184h18v18h-18zM1000 208h12v12h-12zM1222 132h10v10h-10zM1174 250h14v14h-14zM934 142h8v8h-8z"/>
+  </g>
+  <path d="m294 295 54-54h289l54 54v153l-54 54H348l-54-54V295Z" fill="#17231D" fill-opacity=".78" stroke="#D9F7B3" stroke-opacity=".35" stroke-width="3"/>
+  <path d="M394 337h45v45h-45zM493 337h45v45h-45zM447 390h45v45h-45z" fill="#B6F36B" fill-opacity=".8"/>
+  <path d="M412 351h9v9h-9zM511 351h9v9h-9zM465 404h9v9h-9z" fill="#F2FFE8"/>
+  <text x="1030" y="435" fill="url(#word)" font-family="Segoe UI,Arial,sans-serif" font-size="105" font-weight="800" letter-spacing="-7" text-anchor="middle">NEXIUM</text>
+  <text x="1030" y="478" fill="#C7D8C7" font-family="Segoe UI,Arial,sans-serif" font-size="20" font-weight="600" letter-spacing="7" text-anchor="middle">ТВОЯ ИГРА — ТВОЁ СООБЩЕСТВО</text>
+  <text x="1030" y="544" fill="#E9F5E5" font-family="Segoe UI,Arial,sans-serif" font-size="22" font-weight="700" letter-spacing="8" text-anchor="middle">ИГРАЙ. СОЗДАВАЙ. ДЕЛИСЬ.</text>
+</svg>
