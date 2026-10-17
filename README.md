@@ -4,7 +4,7 @@
 
 **NEXIUM is a Minecraft launcher for Windows. Install the game and modpacks, create separate instances, and configure your launch settings in one app.**
 
-[Download NEXIUM](https://github.com/NexiumLauncher/asdazxc/releases/latest) · [All releases](https://github.com/NexiumLauncher/asdazxc/releases)
+[Download NEXIUM](https://github.com/NexiumLauncher/NexiumLauncher/releases/latest) · [All releases](https://github.com/NexiumLauncher/NexiumLauncher/releases)
 
 ## Features
 
@@ -18,7 +18,7 @@
 
 ## Installation
 
-1. Go to the [latest release](https://github.com/NexiumLauncher/asdazxc/releases/latest).
+1. Go to the [latest release](https://github.com/NexiumLauncher/NexiumLauncher/releases/latest).
 2. Download the NEXIUM installer from **Assets**.
 3. Run the `.exe` and follow the setup instructions.
 4. Create an instance, choose a game version or modpack, and click **Play**.
@@ -31,6 +31,6 @@ Each instance has its own folder. To change its contents, open the instance fold
 
 ## Support
 
-Found a bug or have an idea? Open an [issue](https://github.com/NexiumLauncher/asdazxc/issues).
+Found a bug or have an idea? Open an [issue](https://github.com/NexiumLauncher/NexiumLauncher/issues).
 
 NEXIUM is an independent project and is not affiliated with Mojang Studios or Microsoft. Minecraft is a trademark of Mojang Studios.
